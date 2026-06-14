@@ -1,79 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIVAPRAKASH Y | Data Analyst Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIVAPRAKASH Y | Data Analyst Portfolio</title>
 
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            margin:0;
-            padding:0;
-            background:#f4f4f4;
-        }
+<style>
 
-        header{
-            text-align:center;
-            padding:40px;
-            background:#ffffff;
-        }
+/* ===== GLOBAL ===== */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+    color:#222;
+}
 
-        section{
-            max-width:900px;
-            margin:20px auto;
-            background:white;
-            padding:20px;
-            border-radius:10px;
-        }
+/* ===== HEADER ===== */
+header{
+    text-align:center;
+    padding:60px 20px;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    color:white;
+}
 
-        h1,h2,h3{
-            margin-bottom:10px;
-        }
+header h1{
+    margin:0;
+    font-size:38px;
+}
 
-        .project{
-            border:1px solid #ddd;
-            padding:15px;
-            margin-top:15px;
-            border-radius:8px;
-        }
+header p{
+    margin-top:10px;
+    opacity:0.9;
+}
 
-        img{
-            width:100%;
-            border-radius:8px;
-            margin-top:10px;
-        }
+/* BUTTON */
+.button{
+    display:inline-block;
+    padding:10px 16px;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    margin:8px 5px;
+    text-decoration:none;
+    transition:0.3s;
+}
 
-        a{
-            text-decoration:none;
-            color:#2563eb;
-        }
+.button:hover{
+    background:#1d4ed8;
+}
 
-        .button{
-            display:inline-block;
-            padding:10px 15px;
-            border:1px solid #333;
-            border-radius:5px;
-            margin-top:10px;
-            color:black;
-        }
+/* ===== SECTION ===== */
+section{
+    max-width:950px;
+    margin:25px auto;
+    background:white;
+    padding:25px;
+    border-radius:14px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
 
-        footer{
-            text-align:center;
-            padding:20px;
-            color:#666;
-        }
-    </style>
+/* HEADINGS */
+h2{
+    border-left:5px solid #2563eb;
+    padding-left:10px;
+}
+
+/* ===== PROJECT CARD ===== */
+.project{
+    border:1px solid #e5e7eb;
+    padding:18px;
+    margin-top:20px;
+    border-radius:12px;
+    background:#fff;
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* IMAGES */
+img{
+    width:100%;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+/* LIST */
+ul{
+    padding-left:20px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    color:#555;
+}
+
+a{
+    text-decoration:none;
+}
+
+</style>
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header>
     <h1>Sivaprakash Y</h1>
-
-    <h2>Data Analyst</h2>
-
-    <p>SQL | Power BI | Excel | Python | Data Visualization</p>
+    <p>Data Analyst | SQL | Power BI | Excel | Python</p>
 
     <p>
         📧 sivaprakash2914@gmail.com
@@ -81,99 +119,154 @@
         📍 Bengaluru, Karnataka
     </p>
 
-    <p>
-        <a href="https://www.linkedin.com/in/sivaprakashsp" target="_blank">LinkedIn</a>
-        |
-        <a href="https://github.com/sivaprakash007-sp" target="_blank">GitHub</a>
-    </p>
-
-    <p>
-        <a class="button"
-           href="https://raw.githubusercontent.com/sivaprakash007-sp/Sivaprakash_Resume.pdf/main/sivaprakash.resume.pdf"
-           target="_blank">
-           📄 Download Resume
-        </a>
-    </p>
+    <a class="button" href="https://raw.githubusercontent.com/sivaprakash007-sp/Sivaprakash_Resume.pdf/main/sivaprakash.resume.pdf" target="_blank">📄 Resume</a>
+    <a class="button" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    <a class="button" href="https://github.com" target="_blank">GitHub</a>
 </header>
 
+<!-- ABOUT -->
 <section>
-    <h2>👨‍💻 ABOUT ME</h2>
-
+    <h2>👨‍💻 About Me</h2>
     <p>
-        Data Analyst with hands-on experience in SQL, Power BI, Excel, and Python.
-        Built interactive dashboards across E-Commerce, HR Workforce, Startup Funding,
-        and Social Media Analytics domains. Passionate about transforming raw data into actionable insights.
+        Data Analyst with experience in SQL, Power BI, Excel, and Python.
+        Built multiple end-to-end analytics dashboards across E-Commerce,
+        HR Analytics, Startup Funding, and Social Media Behavior domains.
+        Passionate about turning raw data into business insights.
     </p>
 </section>
 
+<!-- SKILLS -->
 <section>
-    <h2>🛠 TECHNICAL SKILLS</h2>
-
+    <h2>🛠 Technical Skills</h2>
     <ul>
-        <li>SQL (Joins, Subqueries, Aggregations)</li>
+        <li>SQL (Joins, Aggregations, Subqueries)</li>
         <li>Power BI (DAX, Power Query, Dashboards)</li>
-        <li>Excel (Pivot Tables, VLOOKUP, Charts)</li>
+        <li>Excel (Pivot Tables, Charts, VLOOKUP)</li>
         <li>Python (Pandas, NumPy)</li>
-        <li>Data Cleaning</li>
-        <li>Data Visualization</li>
+        <li>Data Cleaning & Visualization</li>
     </ul>
 </section>
 
+<!-- PROJECTS -->
 <section>
-    <h2>📊 PROJECTS</h2>
+    <h2>📊 Projects</h2>
 
     <!-- E-COMMERCE -->
     <div class="project">
-        <h3>📊 E-Commerce Sales Analysis Dashboard</h3>
+        <h3>📊 E-Commerce Sales Analysis</h3>
 
         <img src="https://raw.githubusercontent.com/sivaprakash007-sp/e-commerce-project/main/Ecommerce_Project/E%20commerce%20Dashboard.png">
 
-        <p>Analyzed sales performance, revenue trends, and customer behavior using SQL & Power BI.</p>
+        <h4>Overview</h4>
+<p>
+A data-driven E-Commerce Sales Analysis project designed to track business performance,
+identify revenue drivers, and understand customer purchasing behavior using SQL and Power BI.
+Raw transactional data was cleaned, transformed, and converted into interactive dashboards
+for business decision-making.
+</p>
+
+<h4>Tech Stack</h4>
+<p>SQL | Power BI | DAX</p>
+
+<h4>Key Insights</h4>
+<ul>
+    <li>Total Revenue: ₹62K+ sales analyzed</li>
+    <li>Top Category: Electronics contributing 79.03% revenue</li>
+    <li>Top Region: South region leading with ₹25K sales</li>
+    <li>Top Customers: Ravi (₹28K), Siva (₹19K), Kumar (₹15K)</li>
+</ul>
     </div>
 
     <!-- HR -->
     <div class="project">
-        <h3>👥 HR Workforce Analytics Dashboard</h3>
+        <h3>👥 HR Workforce Analytics</h3>
 
         <img src="https://raw.githubusercontent.com/sivaprakash007-sp/HR-Workforce-Analytics-project/main/HR%20Workforce%20Analytics%20Dashboard.png">
 
-        <p>Analyzed attrition, salary distribution, and workforce demographics for HR insights.</p>
+        <h4>Overview</h4>
+<p>
+An HR Workforce Analytics dashboard built to analyze employee distribution,
+attrition trends, salary structure, and workforce demographics.
+The goal was to help HR teams identify retention risks and improve workforce planning.
+</p>
+
+<h4>Tech Stack</h4>
+<p>SQL | Power BI | Advanced DAX</p>
+
+<h4>Key Insights</h4>
+<ul>
+    <li>Total Employees: 1,000 analyzed</li>
+    <li>Attrition Rate: 23.5% (235 employees)</li>
+    <li>Average Salary: ₹88.92K</li>
+    <li>Gender Balance: 50% Male / 50% Female</li>
+</ul>
     </div>
 
     <!-- STARTUP -->
     <div class="project">
-        <h3>🚀 Startup Funding Analytics Dashboard</h3>
+        <h3>🚀 Startup Funding Analytics</h3>
 
         <img src="https://raw.githubusercontent.com/sivaprakash007-sp/startup-funding-analytics-project/main/Startup%20Funding%20Analytics%20Dashboard.png">
 
-        <p>Studied investment trends, funding distribution, and startup ecosystem insights.</p>
+        <h4>Overview</h4>
+<p>
+A Startup Funding Analytics dashboard that analyzes investment trends,
+startup growth patterns, and investor behavior using structured financial data.
+The project helps understand how capital flows across industries and cities.
+</p>
+
+<h4>Tech Stack</h4>
+<p>SQL | Power BI | Data Modeling</p>
+
+<h4>Key Insights</h4>
+<ul>
+    <li>Total Funding Analyzed: $18.35 Billion</li>
+    <li>Top City: Bangalore ($8.38B)</li>
+    <li>Top Sector: eCommerce ($4.28B)</li>
+    <li>Data spans multiple funding cycles (2015–2017)</li>
+</ul>
     </div>
 
     <!-- SOCIAL MEDIA -->
     <div class="project">
-        <h3>📱 Social Media Addiction Analysis Dashboard</h3>
+        <h3>📱 Social Media Addiction Analysis</h3>
 
         <img src="https://raw.githubusercontent.com/sivaprakash007-sp/Social-media-addition-analysis-project/main/Social%20meadia%20addition%20dashboard.png">
 
-        <p>Analyzed screen time, sleep patterns, and addiction levels across users.</p>
+        <h4>Overview</h4>
+<p>
+An interactive behavioral analytics dashboard that studies the impact of social media usage
+on screen time, sleep patterns, and addiction levels across different user groups.
+</p>
+
+<h4>Tech Stack</h4>
+<p>Power BI | Excel | Data Visualization</p>
+
+<h4>Key Insights</h4>
+<ul>
+    <li>Total Users: 300 analyzed</li>
+    <li>High Addiction Users: 97 users</li>
+    <li>Avg Screen Time: 5.42 hours/day</li>
+    <li>Inverse relationship between screen time and sleep</li>
+</ul>
     </div>
 
 </section>
 
+<!-- CERTIFICATIONS -->
 <section>
-    <h2>🏆 CERTIFICATIONS</h2>
-
+    <h2>🏆 Certifications</h2>
     <ul>
         <li>Deloitte Data Analytics Job Simulation - Forage</li>
         <li>Python for Data Science - NPTEL</li>
     </ul>
 </section>
 
+<!-- CONTACT -->
 <section>
-    <h2>📞 CONTACT</h2>
+    <h2>📞 Contact</h2>
 
     <p>Email: sivaprakash2914@gmail.com</p>
-
     <p>📞 +91 6379612608</p>
 
     <p>
@@ -192,7 +285,7 @@
 </section>
 
 <footer>
-    <p>© 2026 Sivaprakash Y | Data Analyst Portfolio</p>
+    © 2026 Sivaprakash Y | Data Analyst Portfolio
 </footer>
 
 </body>
